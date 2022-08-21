@@ -1,6 +1,6 @@
 [package]
 name = "bf"
-version = "0.1.0"
-authors = ["Pavel Kilin <pavel@asdf404.net>"]
+version = "0.1.1"
+authors = ["Pavel Kilin <pavel@borodyadka.wtf>"]
 
 [dependencies]
