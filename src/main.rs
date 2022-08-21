@@ -5,9 +5,9 @@ use std::fs::File;
 const MEM_SIZE: usize = 1024 * 30;
 
 fn read_program(filename: String) -> Result<String, Error> {
-    let mut file = try!(File::open(filename));
+    let mut file = File::open(filename)?;
     let mut content = String::new();
-    try!(file.read_to_string(&mut content));
+    file.read_to_string(&mut content)?;
     Ok(content)
 }
 
